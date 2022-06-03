@@ -1,57 +1,88 @@
-<DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="urf-8">
-            <title>YU Linker</title>
-            <link href="style.css" rel="stylesheet" type="text/css">
-        </head>
-
-        <body>
-            <h1>YU Linker</h1>
-            <h2><strong>Your <em>Kosher</em> Link to YU's Internet Resources</strong></h2>
-            <img src="images/Yeshiva_University.svg.png" alt="YU Logo">
-            <p></p>
-            <select id="MorningDropdown" onchange="getOptionMorn(this)">
-                <option>Select Your Morning Program</option>
-                <option value="MYP">MYP</option>
-                <option value="BMP">BMP</option>
-                <option value="IBC">IBC</option>
-                <option value="JSS">JSS</option>
-            </select>
-            <p> Your selected morning program: 
-                <a id="mornProgram" href="">here</a> </p>
-
-            <select id="AfternoonDropdown" onchange="getOptionAfter(this)">
-                <option>Select Your Afternoon Program</option>
-                <option value="Biology">Biology</option>
-                <option value="Biochemistry">Biochemistry</option>
-                <option value="Chemistry">Chemistry</option>
-                <option value="Computer Science">Computer Science</option>
-                <option value="Computer Science- Distributed Systems">Computer Science- Distributed Systems</option>
-                <option value="Computer Science--Artificial Intelligence">Computer Science--Artificial Intelligence</option>
-                <option value="Economics">Economics</option>
-                <option value="Economics Mathematical Concentration">Economics Mathematical Concentration</option>
-                <option value="English--Literary Studies">English--Literary Studies</option>
-                <option value="English--Creative Writing">English--Creative Writing</option>
-                <option value="History">History</option>
-                <option value="Jewish Studies">Jewish Studies</option>
-                <option value="Mathematics Major (Specialization in Pure and Applied Mathematics)">Mathematics Major (Specialization in Pure and Applied Mathematics)</option>
-                <option value="Mathematics Major (Specialization in Actuarial and Financial Mathematics)">Mathematics Major (Specialization in Actuarial and Financial Mathematics)</option>
-                <option value="Mathematics Major (Specialization in Computational Science)">Mathematics Major (Specialization in Computational Science)</option>
-                <option value="Philosophy">Philosophy</option>
-                <option value="Physics">Physics</option>
-                <option value="Political Science">Political Science</option>
-                <option value="Pre-Engineering/Physics">Pre-Engineering/Physics</option>
-                <option value="Pre-Engineering/Columbia University Track">Pre-Engineering/Columbia University Track</option>
-                <option value="Psychology">Psychology</option>
-                <option value="Psychology and the Community Track">Psychology and the Community Track</option>
-                <option value="Sociology">Sociology</option>
-            </select>
-            <p> Your selected afternoon program:
-                <a id="afternoonProgram" href="">here</a>
-            </p>
-
-        </body>
-        <script src="main.js"></script>
-    </html>
-</DOCTYPE>
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+ <body>
+ <div class="bg">
+	 <div class="bg-color">
+		  <div class="container content">
+				<div class="row">
+					<div class="blazer clearfix">
+						<div class="col-sm-12">
+                <h1>YU Linker</h1>
+                <h2><strong>Your <em>Kosher</em> Link to YU's Internet Resources</strong></h2>
+                <p></p>
+                <select id="MorningDropdown" onchange="getOptionMorn(this)">
+                  <option>Select Your Morning Program</option>
+                  <option value="MYP">MYP</option>
+                  <option value="BMP">BMP</option>
+                  <option value="IBC">IBC</option>
+                  <option value="JSS">JSS</option>
+                </select>
+                <p> Your selected morning program:
+                  <a id="mornProgram" href="">here</a>
+                </p>
+                <select id="AfternoonDropdown" onchange="getOptionAfter(this)">
+                  <option>Select Your Major</option>
+                  <option value="Biology">Biology</option>
+                  <option value="Biochemistry">Biochemistry</option>
+                  <option value="Chemistry">Chemistry</option>
+                  <option value="Computer Science">Computer Science</option>
+                  <option value="Computer Science- Distributed Systems">Computer Science- Distributed Systems</option>
+                  <option value="Computer Science--Artificial Intelligence">Computer Science--Artificial Intelligence</option>
+                  <option value="Economics">Economics</option>
+                  <option value="Economics Mathematical Concentration">Economics Mathematical Concentration</option>
+                  <option value="English--Literary Studies">English--Literary Studies</option>
+                  <option value="English--Creative Writing">English--Creative Writing</option>
+                  <option value="History">History</option>
+                  <option value="Jewish Studies">Jewish Studies</option>
+                  <option value="Mathematics Major (Specialization in Pure and Applied Mathematics)">Mathematics Major (Specialization
+                    in Pure and Applied Mathematics)</option>
+                  <option value="Mathematics Major (Specialization in Actuarial and Financial Mathematics)">Mathematics Major
+                    (Specialization in Actuarial and Financial Mathematics)</option>
+                  <option value="Mathematics Major (Specialization in Computational Science)">Mathematics Major (Specialization in
+                    Computational Science)</option>
+                  <option value="Philosophy">Philosophy</option>
+                  <option value="Physics">Physics</option>
+                  <option value="Political Science">Political Science</option>
+                  <option value="Pre-Engineering/Physics">Pre-Engineering/Physics</option>
+                  <option value="Pre-Engineering/Columbia University Track">Pre-Engineering/Columbia University Track</option>
+                  <option value="Psychology">Psychology</option>
+                  <option value="Psychology and the Community Track">Psychology and the Community Track</option>
+                  <option value="Sociology">Sociology</option>
+                  <option value="Accounting">Accounting</option>
+                  <option value="Business Honors and Entrepreneurial Leadership">Business Honors and Entrepreneurial Leadership</option>
+                  <option value="Finance">Finance</option>
+                  <option value="Business Analytics">Business Analytics</option>
+                  <option value="Marketing">Marketing</option>
+                  <option value="Strategy and Entrepreneurship">Strategy and Entrepreneurship</option>
+                </select>
+                <p> Your selected major:
+                  <a id="afternoonProgram" href="">here</a>
+                </p>
+                <iframe width="900" height="400" src="https://www.yuzmanim.com/" title="YouTube video player" frameborder="5"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <p class="followus"></p>
+                <ul class="social-icon">
+                  <li><a href="https://www.linkedin.com/school/yeshiva-university/"><i class="fa fa-linkedin-square"></i></a></li>
+                  <li><a href="http://www.facebook.com/yeshivauniversity"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a href="http://twitter.com/yunews"><i class="fa fa-twitter-square"></i></a></li>
+                  <li><a href="http://www.youtube.com/yeshivauniversity"><i class="fa fa-youtube-square"></i></a></li>
+                </ul>
+                <div class="row">
+                  <div class="col-sm-12 text-center copyRights"> Design by
+                    <a href="https://bestcompany.com/"> The Best Company</a>
+                  </div>
+                </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	 </div>
+ </div>
+    <script src="main.js"></script>
+  </body>
+</html>
