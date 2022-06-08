@@ -48,6 +48,12 @@ function displayAfternoonProgramLinks(prgm) {
     if (prgm === 'Psychology') linkText.href = 'https://www.yu.edu/sites/default/files/inline-files/Psychology%20Major%207.26.18.pdf';
     if (prgm === 'Psychology and the Community Track') linkText.href = 'https://www.yu.edu/sites/default/files/inline-files/Psy%20and%20the%20community%20major%20November%202021.pdf';
     if (prgm === 'Sociology') linkText.href = 'https://www.yu.edu/sites/default/files/inline-files/Sociology%20Major%207.26.18_0.pdf';
+    if (prgm === 'Accounting') linkText.href = 'https://www.yu.edu//syms/ug/accounting';
+    if (prgm === 'Business Honors and Entrepreneurial Leadership') linkText.href = 'https://www.yu.edu//syms/honors';
+    if (prgm === 'Finance') linkText.href = 'https://www.yu.edu//syms/ug/finance';
+    if (prgm === 'Business Analytics') linkText.href = 'https://www.yu.edu//syms/ug/information-decision-sciences';
+    if (prgm === 'Marketing') linkText.href = 'https://www.yu.edu//syms/ug/marketing';
+    if (prgm === 'Strategy and Entrepreneurship') linkText.href = 'https://www.yu.edu//syms/ug/strategy-entrepreneurship';
 
     
 }
